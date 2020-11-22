@@ -2,12 +2,12 @@
   <div class="dashboard">
 
     <div class="jumbotron">
-      <h1 class="display-4">生活中常见的编码</h1>
+      <h1 class="display-4">摩尔斯电码</h1>
       <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
       <hr class="my-4">
       <img src="../../assets/imgs/mose.jpeg"/>
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <a class="btn btn-primary btn-lg"  role="button" @click="next">Learn more</a>
     </div>
 <!--    <el-carousel :interval="4000" height="800px" >-->
 <!--      <el-carousel-item>-->
@@ -40,6 +40,11 @@ export default {
     ...mapGetters([
       'name'
     ])
+  },
+  methods:{
+    next(){
+      this.$router.push({name:'pageTwo'})
+    }
   },
   onload() {
   }
