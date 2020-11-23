@@ -2,13 +2,15 @@
   <div class="dashboard">
 
     <div class="jumbotron">
-      <h1 class="display-4">布莱叶盲文</h1>
+      <h1 class="display-4">加密</h1>
       <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
-      <hr class="my-4">
-      <img src="../../assets/imgs/bra.png"/>
+
+      <img src="../../assets/imgs/mimabiao.jpg"/>
+      <img src="../../assets/imgs/mimabiao2.jpg"/>
+      <img src="../../assets/imgs/mimabiao3.jpg"/>
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <img src="../../assets/imgs/bra2.jpeg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+
       <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
     </div>
     <!--    <el-carousel :interval="4000" height="800px" >-->
@@ -43,9 +45,9 @@ export default {
       'name'
     ])
   },
-  methods: {
-    next() {
-      this.$router.push({name: 'page3'})
+  methods:{
+    next(){
+      this.$router.push({name:'page7'})
     }
   },
   onload() {
@@ -63,7 +65,7 @@ export default {
     margin-bottom: 0;
 
     img {
-      width: 80%;
+      width: 50%;
     }
   }
 

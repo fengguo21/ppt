@@ -56,7 +56,7 @@ export default {
   },
   methods:{
     next(){
-      this.$router.push({name:'pageFive'})
+      this.$router.push({name:'page5'})
     }
   },
   onload() {
