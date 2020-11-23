@@ -43,7 +43,7 @@ export default {
   },
   methods:{
     next(){
-      this.$router.push({name:'pageTwo'})
+      this.$router.push({name:'page2'})
     }
   },
   onload() {

@@ -52,17 +52,33 @@ export const constantRoutes = [
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
     },{
-      path: 'pageTwo',
-      name: 'pageTwo',
+      path: 'page2',
+      name: 'page2',
       component: () => import('@/views/dashboard/page2'),
     },{
-      path: 'pageFour',
-      name: 'pageFour',
+      path: 'page4',
+      name: 'page4',
       component: () => import('@/views/dashboard/page4'),
     },{
-      path: 'pageThree',
-      name: 'pageThree',
+      path: 'page3',
+      name: 'page3',
       component: () => import('@/views/dashboard/page3'),
+    },{
+      path: 'page5',
+      name: 'page5',
+      component: () => import('@/views/dashboard/page5'),
+    },{
+      path: 'page6',
+      name: 'page6',
+      component: () => import('@/views/dashboard/page6'),
+    },{
+      path: 'page7',
+      name: 'page7',
+      component: () => import('@/views/dashboard/page7'),
+    },{
+      path: 'page8',
+      name: 'page8',
+      component: () => import('@/views/dashboard/page8'),
     }]
   },
 

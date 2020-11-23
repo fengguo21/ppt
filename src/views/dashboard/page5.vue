@@ -5,19 +5,12 @@
       <h1 class="display-4">小程序码</h1>
       <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
 
-      <img src="../../assets/imgs/b1.png"/>
+      <img src="../../assets/imgs/mini.jpg"/>
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 
       <h1 class="display-4">examples</h1>
-      <img src="../../assets/imgs/b1.png"/>
-      <img class="t1" src="../../assets/imgs/b2.png"/>
-      <p>13843076014</p>
-      <p>北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。 山舞银蛇，原驰蜡象，欲与天公试比高。 须晴日，看红装素裹，分外妖娆。 江山如此多娇，引无数英雄竞折腰。 惜秦皇汉武，略输文采；唐宗宋祖，稍逊风骚。 一代天骄，成吉思汗，只识弯弓射大雕。 俱往矣，数风流人物，还看今朝。</p>
-      <img class="t1" src="../../assets/imgs/b3.jpeg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <img class="t1" src="../../assets/imgs/b4.jpeg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <img class="t1" src="../../assets/imgs/b5.gif"/>
+      <img class="t1" src="../../assets/imgs/mini2.jpg"/>
+
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 
       <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
@@ -56,7 +49,7 @@ export default {
   },
   methods:{
     next(){
-      this.$router.push({name:'pageFive'})
+      this.$router.push({name:'page6'})
     }
   },
   onload() {
