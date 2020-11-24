@@ -3,44 +3,23 @@
 
     <div class="jumbotron">
       <h1 class="display-4">条形码</h1>
-      <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
-
-      <img src="../../assets/imgs/oneDemo.jpeg"/>
-      <img src="../../assets/imgs/tDetail.png"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">条形码(barcode)是将宽度不等的多个黑条和空白，按照一定的编码规则排列，用以表达一组信息的图形标识符。常见的条形码是由反射率相差很大的黑条（简称条）和白条（简称空）排成的平行线图案。</p>
+      <hr class="my-4">
+      <img src="../../assets/imgs/oneDemo.jpeg" class="bigPic"/>
+      <hr class="my-4">
+      <img src="../../assets/imgs/tDetail.png" class="detail"/>
+      <p></p>
 
       <h1 class="display-4">examples</h1>
       <img class="t1" src="../../assets/imgs/t1.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <img class="t1" src="../../assets/imgs/t2.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <img class="t1" src="../../assets/imgs/t3.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <img class="t1" src="../../assets/imgs/t4.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <img class="t1" src="../../assets/imgs/t5.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p></p>
 
-      <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
+      <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">next</a>
     </div>
-    <!--    <el-carousel :interval="4000" height="800px" >-->
-    <!--      <el-carousel-item>-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">1</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/bra.jpg"/>-->
-    <!--        <h3 class="medium">2</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">3</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">4</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--    </el-carousel>-->
 
   </div>
 </template>
@@ -73,9 +52,14 @@ export default {
   .jumbotron {
     min-height: 100vh;
     margin-bottom: 0;
+    .bigPic{
+      width: 40%;
+
+
+    }
 
     img {
-      width: 50%;
+      margin: 60px ;
     }
   }
 

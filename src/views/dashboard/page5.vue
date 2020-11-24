@@ -3,36 +3,18 @@
 
     <div class="jumbotron">
       <h1 class="display-4">小程序码</h1>
-      <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
+      <p class="lead">私有协议</p>
 
       <img src="../../assets/imgs/mini.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 
-      <h1 class="display-4">examples</h1>
+      <h1 class="display-4" style="height: 300px"></h1>
       <img class="t1" src="../../assets/imgs/mini2.jpg"/>
 
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">有36线/54线/72线   三个版本</p>
 
       <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
     </div>
-    <!--    <el-carousel :interval="4000" height="800px" >-->
-    <!--      <el-carousel-item>-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">1</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/bra.jpg"/>-->
-    <!--        <h3 class="medium">2</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">3</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">4</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--    </el-carousel>-->
+
 
   </div>
 </template>

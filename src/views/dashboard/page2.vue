@@ -3,13 +3,13 @@
 
     <div class="jumbotron">
       <h1 class="display-4">布莱叶盲文</h1>
-      <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
+      <p class="lead">由法国盲人路易·布莱尔于1824年创造的，故国际上通称为“布莱尔（Braille）”。</p>
       <hr class="my-4">
       <img src="../../assets/imgs/bra.png"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <h1 class="display-4" style="margin-top: 200px">书籍</h1>
       <img src="../../assets/imgs/bra2.jpeg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
+      <p></p>
+      <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">next</a>
     </div>
     <!--    <el-carousel :interval="4000" height="800px" >-->
     <!--      <el-carousel-item>-->
@@ -63,7 +63,8 @@ export default {
     margin-bottom: 0;
 
     img {
-      width: 80%;
+      width: 60%;
+      margin: 60px ;
     }
   }
 
