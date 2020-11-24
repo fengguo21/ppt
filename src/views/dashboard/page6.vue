@@ -2,35 +2,32 @@
   <div class="dashboard">
 
     <div class="jumbotron">
-      <h1 class="display-4">加密</h1>
-      <p class="lead">然而摩尔斯电码是由美国人摩尔斯在1837年被发明的，它的组成是由点dot（.）划dash（-）这两种符号所组成的。</p>
+      <h1 class="display-4" style="margin-bottom: 40px">加密</h1>
 
       <img src="../../assets/imgs/mimabiao.jpg"/>
-      <img src="../../assets/imgs/mimabiao2.jpg"/>
-      <img src="../../assets/imgs/mimabiao3.jpg"/>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <h1 class="display-4" style="margin: 40px 0">example</h1>
+      <div class="example" >
+        <span> I am hungry</span>
+
+        <i class="el-icon-right" style="color: green"></i>
+        <span> S CY RIZEFN</span>
+      </div>
+      <h2 class="display-4" style="margin-bottom: 40px;margin-top: 300px">字母频率表</h2>
+      <img src="../../assets/imgs/tongji.png"/>
+      <h1 class="display-4" style="margin-bottom: 40px;margin-top: 300px"></h1>
+      <div>
+        <img src="../../assets/imgs/mimabiao2.jpg"/>
+        <h1 class="display-4" style="margin: 540px"></h1>
+        <img src="../../assets/imgs/mimabiao3.jpg"/>
+      </div>
+
+
+
 
 
       <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
     </div>
-    <!--    <el-carousel :interval="4000" height="800px" >-->
-    <!--      <el-carousel-item>-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">1</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/bra.jpg"/>-->
-    <!--        <h3 class="medium">2</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">3</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--      <el-carousel-item >-->
-    <!--        <img src="../../assets/imgs/mos.jpeg"/>-->
-    <!--        <h3 class="medium">4</h3>-->
-    <!--      </el-carousel-item>-->
-    <!--    </el-carousel>-->
+
 
   </div>
 </template>
@@ -63,6 +60,14 @@ export default {
   .jumbotron {
     min-height: 100vh;
     margin-bottom: 0;
+    .example{
+      display: flex;
+      font-size: 60px;
+      align-items: center;
+      span{
+        margin: 80px;
+      }
+    }
 
     img {
       width: 50%;
