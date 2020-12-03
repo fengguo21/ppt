@@ -11,6 +11,8 @@
 
 
 
+
+
       <a class="btn btn-primary btn-lg" href="#" role="button" @click="next">Learn more</a>
     </div>
     <!--    <el-carousel :interval="4000" height="800px" >-->
